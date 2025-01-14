@@ -73,5 +73,5 @@ def number_property(number):
     print(f'• In octal system – {str(oct(number))[2:]}')
     print(f'• In hexadecimal system – {str(hex(number))[2:]}')
 
-
+print('Type number')
 print(number_property(int(input())))
